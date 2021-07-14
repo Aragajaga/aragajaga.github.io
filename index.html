@@ -1,0 +1,165 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
+  <style>
+  body {
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+    color: #333;
+  }
+
+  h1 {
+    font-weight: normal;
+  }
+
+  body>header {
+    padding: 0 1em;
+    background-color: #c00;
+    color: #fff;
+    user-select: none;
+  }
+
+  body>header a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  body>header>#logo {
+    display: inline-block;
+    margin: 0 1em 0 0;
+    padding: 0;
+    vertical-align: middle;
+    font-size: 1.4em;
+    text-transform: uppercase;
+  }
+
+  body>header>nav {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  body>header>nav>ul {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+  }
+
+  body>header>nav>ul li {
+    display: inline-block;
+    padding: 1em .4em;
+    vertical-align: middle;
+  }
+
+  body>header>nav>ul li:hover {
+    background-color: rgba(255, 0, 0, 0.25);
+  }
+
+  body>section {
+    margin: 0 1em;
+  }
+
+  body>section.cover {
+    margin: 0;
+    padding: 1em;
+    background: #333;
+    color: #eee;
+    text-align: center;
+  }
+
+  .product-card-row {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .product-card {
+    display: flex;
+    margin: 1em;
+    padding: 1em;
+    text-align: left;
+    flex: 0 0 33%;
+    flex-direction: column;
+    background-color: #fff;
+    color: #333;
+    border-radius: .4em;
+    box-shadow: 0 .4em 1em 0 rgba(0, 0, 0, .1), 0 0 .1em 0 rgba(0, 0, 0, .5);
+  }
+
+  .product-card h1 {
+    margin: 0;
+  }
+
+  .product-card .btn {
+    width: fit-content;
+    margin-top: auto;
+    text-decoration: none;
+  }
+
+  button, .btn {
+    padding: .4em 1em;
+    border: 0;
+    background-color: #C00;
+    color: #fff;
+    font-family: inherit;
+    font-size: inherit;
+    border-radius: 999em;
+  }
+
+  button:hover, .btn:hover {
+    background-color: #f00;  
+  }
+
+  body>footer {
+    padding: .4em .4em .4em 1em;
+    background: #eee;
+  }
+  </style>
+</head>
+<body>
+  <header>
+    <h1 id="logo">Aragajaga</h1>
+    <nav>
+      <ul><!--
+        --><a href="/"><li>Home</li></a><!--
+        --><a href="/panitent.html"><li>Panit.ent</li></a><!--
+        --><a href="/crosszero.html"><li>CrossZero</li></a><!--
+        --><a href="/about.html"><li>About</li></a><!--
+        --><a href="/contact.html"><li>Contact</li></a><!--
+        --><a href="https://github.com/Aragajaga"><li>GitHub</li></a>
+      </ul>
+    </nav>
+  </header>
+  <section class="cover">
+    <h1>Making software to make a world better</h1>
+    <div class="product-card-row">
+      <div class="product-card">
+        <h1>Panit.ent</h1>
+        <p>An advanced graphics editor that would fit all your purposes</p>
+        <a href="/panitent.html" class="btn">Free<a>
+      </div>
+      <div class="product-card">
+        <h1>CrossZero</h1>
+        <p>A simple Tic-Tac-Toe game</p>
+        <a href="/crosszero.html" class="btn">Free<a>
+      </div>
+    </div>
+  </section>
+  <section>
+    <h1>Smooth performance first</h1>
+    <p>We are building applications that run at native runtime level. No virtual machines, no bloating frameworks. End-users gets what they want fast.</p>
+    <h1>Open and connected</h1>
+    <p>Most of our products are open source. Everyone can contribute and make software better. Feel free on reporting bugs and opening issues, we will do our best to provide you a valuable feedback with an issued problem.</p>
+    <h1>Request an individual project</h1>
+    <p>Contact with our team to discuss the scale of work to be done <a href="mailto:contact@aragajaga.com">contact@aragajaga.com</a></p>
+  </section>
+  <footer>
+    Aragajaga &copy; 2021
+  </footer>
+</body>
+</html>
